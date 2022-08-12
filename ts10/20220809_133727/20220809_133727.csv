@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ts10,Chrome 103.0.5060.134,,,2022-08-09 13:40:10,2022-08-09 14:05:28,25m - 18.009s,PASSED
+,,,,,,,
+Test Cases/tc10,Chrome 103.0.5060.134,,,2022-08-09 13:40:15,2022-08-09 14:05:28,25m - 12.835s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-08-09 13:40:19,2022-08-09 13:40:45,25.705s,PASSED
+"navigateToUrl(""https://secure.robbooker.com/staging/oc_exc_popo_crosssell/?inv_campaign=MID0023398"")",Chrome 103.0.5060.134,,,2022-08-09 13:40:45,2022-08-09 13:40:50,5.316s,PASSED
+"setText(findTestObject(""Object Repository/Page_The Exotics Club  VSL Page/input_Enter Your Email to Unlock the System_f96648""), ""nith279+quiz908tc10j@yahoo.com"")",Chrome 103.0.5060.134,,,2022-08-09 13:40:50,2022-08-09 13:40:56,5.888s,PASSED
+"click(findTestObject(""Object Repository/Page_The Exotics Club  VSL Page/button_Watch the Presentation""))",Chrome 103.0.5060.134,,,2022-08-09 13:40:56,2022-08-09 13:41:13,17.512s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Contact Information_fn""), ""Fn"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:13,2022-08-09 13:41:14,0.952s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Contact Information_ln""), ""Ln"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:14,2022-08-09 13:41:15,1.072s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Contact Information_phone""), ""424 2"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:15,2022-08-09 13:41:17,1.209s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Billing Information_street""), ""Sa"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:17,2022-08-09 13:41:18,0.936s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Billing Information_city""), ""Cty"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:18,2022-08-09 13:41:19,1.425s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Payment Information_ccno""), ""4000 0042 8000 0005"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:19,2022-08-09 13:41:20,1.392s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_/select_202220232024202520262027202820292030_d6720a""), ""2028"", true)",Chrome 103.0.5060.134,,,2022-08-09 13:41:20,2022-08-09 13:41:25,4.294s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Payment Information_cccode""), ""123"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:25,2022-08-09 13:41:26,1.380s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Payment Information_zip""), ""32004"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:26,2022-08-09 13:41:28,1.749s,PASSED
+"use(groovy.time.TimeCategory, { -> ... })",Chrome 103.0.5060.134,,,2022-08-09 13:41:28,2022-08-09 13:41:28,0.050s,PASSED
+"tn = today.format(""hh:mm"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:28,2022-08-09 13:41:28,0.008s,PASSED
+"while (tn != ""01:55"")",Chrome 103.0.5060.134,,,2022-08-09 13:41:28,2022-08-09 13:55:00,13m - 32.509s,PASSED
+"click(findTestObject(""Object Repository/Page_/button_Order Now""))",Chrome 103.0.5060.134,,,2022-08-09 13:55:00,2022-08-09 13:55:34,33.521s,PASSED
+"click(findTestObject(""Object Repository/Page_The Exotics Club  Jump Trade Profit Alerts/input_Do nothing. You can bury your head in_b06974""))",Chrome 103.0.5060.134,,,2022-08-09 13:55:34,2022-08-09 13:55:37,2.783s,PASSED
+"use(groovy.time.TimeCategory, { -> ... })",Chrome 103.0.5060.134,,,2022-08-09 13:55:37,2022-08-09 13:55:37,0.020s,PASSED
+"tu = today.format(""hh:mm"")",Chrome 103.0.5060.134,,,2022-08-09 13:55:37,2022-08-09 13:55:37,0.005s,PASSED
+"while (tu != ""02:05"")",Chrome 103.0.5060.134,,,2022-08-09 13:55:37,2022-08-09 14:05:00,9m - 23.240s,PASSED
+"click(findTestObject(""Object Repository/Page_The Exotics Club  Jump Trade Profit Alerts/button_Yes, Give Me LIFETIME Access to Jump_54a76a""))",Chrome 103.0.5060.134,,,2022-08-09 14:05:00,2022-08-09 14:05:24,23.894s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-09 14:05:24,2022-08-09 14:05:28,4.428s,PASSED
